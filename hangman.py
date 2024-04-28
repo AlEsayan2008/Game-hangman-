@@ -1,4 +1,6 @@
 import random 
+
+
 Hangman = [
     '''
     ____
@@ -70,7 +72,7 @@ while wrong < max_wrong and so_far_from_word != word:
 
 
     while guess in used_letters:
-        print("Ypu already guess this letter:", used_letters)
+        print("You already guess this letter:", used_letters)
         guess = input("Please, enter another letter:")
     used_letters.append(guess)
 
